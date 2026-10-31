@@ -1,6 +1,7 @@
 # 学習成果物・評価ログ・動画(ローカルのみ。バックアップは別途)
 /logs/
 /outputs/
+/doc/
 
 # python
 __pycache__/
