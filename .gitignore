@@ -1,0 +1,26 @@
+# 学習成果物・評価ログ・動画(ローカルのみ。バックアップは別途)
+/logs/
+/outputs/
+
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# editors
+.vscode/
+.idea/
+
+# secrets(組織ポリシー: 認証情報はコミットしない)
+.env
+*.pem
+*credentials*
+
+# macOS
+.DS_Store
+
+# checkpoint(正本は S3。ローカル配置のみ)
+*.pt
+
+# Claude Code のセッション引き継ぎノート(ローカルのみ)
+/.claude/handovers/
